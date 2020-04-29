@@ -1,5 +1,7 @@
 # Webpacker/Turbolinks demo
 
+<img src="./home_to_detail.gif" width="500" alt="Switching home to detail screens">
+
 Project generated using
 
     rails new loadly -M -C -S -d postgresql --webpacker --no-rc
