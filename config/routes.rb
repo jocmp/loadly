@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root 'home#index'
 
-  resources :home, only: [:index] do
-    get :detail, on: :collection
-  end
+  get '/', to: 'home#index', as: 'home'
+  get '/detail', to: 'home#detail', as: 'detail'
 end
